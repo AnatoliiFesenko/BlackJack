@@ -1,0 +1,44 @@
+.wrapperTable {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+
+  .header {
+    display: flex;
+    justify-content: end;
+    color: white;
+    height: 10vh;
+    .logout {
+      cursor: pointer;
+      margin: 10px;
+      height: 45px;
+      width: 130px;
+      background-color: rgb(95, 8, 8);
+      font-size: 20px;
+    }
+    .logout:hover {
+      border: 2px solid white;
+      color: white;
+    }
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    // border: 5px solid white;
+    align-items: center;
+    height: 90vh;
+    margin-left: 1vw;
+
+    .gameZone {
+      // border: 5px solid white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 85vh;
+      width: 60vw;
+      margin: 5px 5px;
+      margin-left: 30px;
+      margin-right: 10vw;
+    }
+  }
+}

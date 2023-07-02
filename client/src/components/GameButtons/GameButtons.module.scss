@@ -1,0 +1,71 @@
+.wrapperButtons {
+  display: flex;
+  justify-content: space-around;
+  width: 60vw;
+  .input {
+    height: 30px;
+    width: 18vw;
+
+    > div {
+      color: white;
+    }
+  }
+  .result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 18vw;
+    border: 2px solid gold;
+    font-size: 24px;
+    margin: 0px 10px;
+    color: white;
+  }
+  .bet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 18vw;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 24px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 18vw;
+    background-color: rgb(0, 102, 0);
+    border: 2px solid gold;
+    color: black;
+    font-size: 24px;
+    border-radius: 20px;
+    // margin: 0px 60px;
+    cursor: pointer;
+  }
+  .buttons:hover {
+    border: 2px solid white;
+    color: white;
+  }
+
+  .buttonsStop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 15vw;
+    background-color: rgb(95, 8, 8);
+    border: 2px solid black;
+    color: black;
+    font-size: 24px;
+    border-radius: 20px;
+    margin: 0px 60px;
+    cursor: pointer;
+  }
+  .buttonsStop:hover {
+    border: 2px solid white;
+    color: white;
+  }
+}

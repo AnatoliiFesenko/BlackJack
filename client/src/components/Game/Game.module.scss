@@ -1,0 +1,59 @@
+.wrapGameTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+
+  .gameTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 5px 5px;
+    height: 60vh;
+    min-height: 500px;
+    width: 60vw;
+    min-width: 800px;
+    border: 7px solid white;
+    border-radius: 60px;
+    background-color: rgb(6, 75, 42);
+
+    .wrapCards {
+      display: flex;
+      align-items: center;
+      height: 180px;
+      width: 60px;
+      margin: 50px 10px;
+      .cardDiller {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 180px;
+        border-radius: 5%;
+        margin: 15px 18px;
+        box-shadow: 10px 5px 5px 1px black;
+        > img {
+          height: 180px;
+          width: 120px;
+          box-shadow: 10px 5px 20px 1px black;
+        }
+      }
+      .cardUser {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 180px;
+        border-radius: 5%;
+        margin: 15px 18px;
+        box-shadow: 10px 5px 5px 1px black;
+
+        > img {
+          height: 180px;
+          width: 120px;
+          box-shadow: 10px 5px 20px 1px black;
+        }
+      }
+    }
+  }
+}

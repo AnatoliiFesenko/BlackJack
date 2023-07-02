@@ -1,0 +1,13 @@
+.wrapperDeck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 140px;
+  // border: 5px solid brown;
+  border-radius: 5%;
+  > img {
+    height: 200px;
+    width: 140px;
+  }
+}
